@@ -1,0 +1,20 @@
+{
+  "name": "blushique-ecommerce-sprint-2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "vercel dev",
+    "evidence": "node scripts/evidence.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4",
+    "dotenv": "^16.4.5",
+    "vercel": "^48.0.0"
+  }
+}
